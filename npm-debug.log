@@ -1,0 +1,232 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/damien/.nvm/versions/node/v6.9.1/bin/node',
+1 verbose cli   '/home/damien/.nvm/versions/node/v6.9.1/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'encrypt' ]
+2 info using npm@4.0.2
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData encrypt
+8 silly fetchNamedPackageData encrypt
+9 silly mapToRegistry name encrypt
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'encrypt',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'encrypt',
+12 silly mapToRegistry   name: 'encrypt',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/encrypt
+14 verbose request uri https://registry.npmjs.org/encrypt
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 19:02:03
+17 verbose request using bearer token for auth
+18 verbose request id 8a39b73d586b907f
+19 http request GET https://registry.npmjs.org/encrypt
+20 http 200 https://registry.npmjs.org/encrypt
+21 verbose headers { server: 'nginx/1.10.1',
+21 verbose headers   'content-type': 'application/json',
+21 verbose headers   'last-modified': 'Sun, 06 Feb 2011 03:32:44 GMT',
+21 verbose headers   etag: 'W/"4d4e165c-357"',
+21 verbose headers   'content-encoding': 'gzip',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'transfer-encoding': 'chunked',
+21 verbose headers   'accept-ranges': 'bytes',
+21 verbose headers   date: 'Tue, 06 Dec 2016 18:02:04 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-ams4148-AMS',
+21 verbose headers   'x-cache': 'MISS',
+21 verbose headers   'x-cache-hits': '0',
+21 verbose headers   'x-timer': 'S1481047324.702510,VS0,VE35',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 200,
+22 silly get   { server: 'nginx/1.10.1',
+22 silly get     'content-type': 'application/json',
+22 silly get     'last-modified': 'Sun, 06 Feb 2011 03:32:44 GMT',
+22 silly get     etag: 'W/"4d4e165c-357"',
+22 silly get     'content-encoding': 'gzip',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'transfer-encoding': 'chunked',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     date: 'Tue, 06 Dec 2016 18:02:04 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-ams4148-AMS',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1481047324.702510,VS0,VE35',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose get saving encrypt to /home/damien/.npm/registry.npmjs.org/encrypt/.cache.json
+24 verbose correctMkdir /home/damien/.npm correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule encrypt@0.0.1 checking installable status
+38 silly cache add args [ 'encrypt', null ]
+39 verbose cache add spec encrypt
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'encrypt',
+40 silly cache add   scope: null,
+40 silly cache add   escapedName: 'encrypt',
+40 silly cache add   name: 'encrypt',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed encrypt@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for encrypt
+43 info addNameTag [ 'encrypt', 'latest' ]
+44 silly mapToRegistry name encrypt
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'encrypt',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'encrypt',
+47 silly mapToRegistry   name: 'encrypt',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/encrypt
+49 verbose addNameTag registry:https://registry.npmjs.org/encrypt not in flight; fetching
+50 verbose get https://registry.npmjs.org/encrypt not expired, no request
+51 silly addNameTag next cb for encrypt with tag latest
+52 silly addNamed encrypt@0.0.1
+53 verbose addNamed "0.0.1" is a plain semver version for encrypt
+54 silly mapToRegistry name encrypt
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'encrypt',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   escapedName: 'encrypt',
+57 silly mapToRegistry   name: 'encrypt',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/encrypt
+59 verbose addRemoteTarball https://registry.npmjs.org/encrypt/-/encrypt-0.0.1.tgz not in flight; adding
+60 verbose addRemoteTarball [ 'https://registry.npmjs.org/encrypt/-/encrypt-0.0.1.tgz',
+60 verbose addRemoteTarball   '8c7c9b7e8f85c8701f090d3b5292efd1d4c3bf8c' ]
+61 info retry fetch attempt 1 at 19:02:03
+62 info attempt registry request try #1 at 19:02:03
+63 http fetch GET https://registry.npmjs.org/encrypt/-/encrypt-0.0.1.tgz
+64 verbose request using bearer token for auth
+65 http fetch 200 https://registry.npmjs.org/encrypt/-/encrypt-0.0.1.tgz
+66 silly fetchAndShaCheck shasum 8c7c9b7e8f85c8701f090d3b5292efd1d4c3bf8c
+67 verbose addTmpTarball /tmp/npm-5925-591ccf38/registry.npmjs.org/encrypt/-/encrypt-0.0.1.tgz not in flight; adding
+68 verbose addTmpTarball already have metadata; skipping unpack for encrypt@0.0.1
+69 verbose correctMkdir /home/damien/.npm correctMkdir not in flight; initializing
+70 silly cache afterAdd encrypt@0.0.1
+71 verbose afterAdd /home/damien/.npm/encrypt/0.0.1/package/package.json not in flight; writing
+72 verbose correctMkdir /home/damien/.npm correctMkdir not in flight; initializing
+73 verbose afterAdd /home/damien/.npm/encrypt/0.0.1/package/package.json written
+74 silly loadAllDepsIntoIdealTree Finishing
+75 silly loadIdealTree Finishing
+76 silly currentTree damienvareille@1.0.0
+77 silly idealTree damienvareille@1.0.0
+77 silly idealTree └── encrypt@0.0.1
+78 silly generateActionsToTake Starting
+79 silly install generateActionsToTake
+80 silly generateActionsToTake Finishing
+81 silly diffTrees action count 1
+82 silly diffTrees add encrypt@0.0.1
+83 silly decomposeActions action count 8
+84 silly decomposeActions fetch encrypt@0.0.1
+85 silly decomposeActions extract encrypt@0.0.1
+86 silly decomposeActions test encrypt@0.0.1
+87 silly decomposeActions preinstall encrypt@0.0.1
+88 silly decomposeActions build encrypt@0.0.1
+89 silly decomposeActions install encrypt@0.0.1
+90 silly decomposeActions postinstall encrypt@0.0.1
+91 silly decomposeActions finalize encrypt@0.0.1
+92 silly runTopLevelLifecycles Starting
+93 silly executeActions Starting
+94 silly install executeActions
+95 silly doSerial global-install 0
+96 silly doParallel fetch 1
+97 verbose correctMkdir /home/damien/.npm/_locks correctMkdir not in flight; initializing
+98 verbose lock using /home/damien/.npm/_locks/staging-23ee1074de60d953.lock for /home/damien/Bureau/node_modules/.staging
+99 silly doParallel extract 1
+100 silly extract encrypt@0.0.1
+101 verbose unbuild node_modules/.staging/encrypt-f3663cdf
+102 silly gentlyRm /home/damien/Bureau/node_modules/.staging/encrypt-f3663cdf is being purged from base /home/damien/Bureau
+103 verbose gentlyRm don't care about contents; nuking /home/damien/Bureau/node_modules/.staging/encrypt-f3663cdf
+104 verbose tar unpack /home/damien/.npm/encrypt/0.0.1/package.tgz
+105 verbose tar unpacking to /home/damien/Bureau/node_modules/.staging/encrypt-f3663cdf
+106 silly gentlyRm /home/damien/Bureau/node_modules/.staging/encrypt-f3663cdf is being purged
+107 verbose gentlyRm don't care about contents; nuking /home/damien/Bureau/node_modules/.staging/encrypt-f3663cdf
+108 silly gunzTarPerm modes [ '775', '664' ]
+109 silly gunzTarPerm extractEntry
+110 silly gunzTarPerm modified mode [ '', 493, 509 ]
+111 silly gunzTarPerm extractEntry Makefile
+112 silly gunzTarPerm modified mode [ 'Makefile', 420, 436 ]
+113 silly gunzTarPerm extractEntry README.md
+114 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+115 silly gunzTarPerm extractEntry lib-cov/
+116 silly gunzTarPerm modified mode [ 'lib-cov/', 493, 509 ]
+117 silly gunzTarPerm extractEntry lib-cov/encrypt.js
+118 silly gunzTarPerm modified mode [ 'lib-cov/encrypt.js', 420, 436 ]
+119 silly gunzTarPerm extractEntry package.json
+120 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+121 silly gunzTarPerm extractEntry lib/
+122 silly gunzTarPerm modified mode [ 'lib/', 493, 509 ]
+123 silly gunzTarPerm extractEntry lib/encrypt.js
+124 silly gunzTarPerm modified mode [ 'lib/encrypt.js', 420, 436 ]
+125 silly gunzTarPerm extractEntry test/
+126 silly gunzTarPerm modified mode [ 'test/', 493, 509 ]
+127 silly gunzTarPerm extractEntry test/test.js
+128 silly gunzTarPerm modified mode [ 'test/test.js', 420, 436 ]
+129 verbose unlock done using /home/damien/.npm/_locks/staging-23ee1074de60d953.lock for /home/damien/Bureau/node_modules/.staging
+130 silly rollbackFailedOptional Starting
+131 silly rollbackFailedOptional Finishing
+132 silly runTopLevelLifecycles Finishing
+133 silly install printInstalled
+134 warn damienvareille@1.0.0 No description
+135 verbose If you need help, you may report this error at:
+135 verbose     <https://github.com/npm/npm/issues>
+136 warn damienvareille@1.0.0 No repository field.
+137 verbose If you need help, you may report this error at:
+137 verbose     <https://github.com/npm/npm/issues>
+138 verbose stack Error: Failed to parse json
+138 verbose stack Unexpected token 'n' at 1:3
+138 verbose stack { name: 'encrypt',
+138 verbose stack   ^
+138 verbose stack     at parseError (/home/damien/.nvm/versions/node/v6.9.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:390:11)
+138 verbose stack     at parseJson (/home/damien/.nvm/versions/node/v6.9.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:79:23)
+138 verbose stack     at /home/damien/.nvm/versions/node/v6.9.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:48:5
+138 verbose stack     at /home/damien/.nvm/versions/node/v6.9.1/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+138 verbose stack     at tryToString (fs.js:455:3)
+138 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
+139 verbose cwd /home/damien/Bureau
+140 error Linux 4.4.0-21-generic
+141 error argv "/home/damien/.nvm/versions/node/v6.9.1/bin/node" "/home/damien/.nvm/versions/node/v6.9.1/bin/npm" "install" "encrypt"
+142 error node v6.9.1
+143 error npm  v4.0.2
+144 error file /home/damien/Bureau/node_modules/.staging/encrypt-f3663cdf/package.json
+145 error code EJSONPARSE
+146 error Failed to parse json
+146 error Unexpected token 'n' at 1:3
+146 error { name: 'encrypt',
+146 error   ^
+147 error File: /home/damien/Bureau/node_modules/.staging/encrypt-f3663cdf/package.json
+148 error Failed to parse package.json data.
+148 error package.json must be actual JSON, not just JavaScript.
+148 error
+148 error This is not a bug in npm.
+148 error Tell the package author to fix their package.json file. JSON.parse
+149 verbose exit [ 1, true ]
